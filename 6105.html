@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三级页面</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        // 检查用户是否已经登录
+        if (localStorage.getItem('loggedIn') !== 'true') {
+            window.location.href = 'login.html'; // 未登录时重定向到登录页面
+        }
+    </script>
+
+    <header>
+        <h1>售后支持</h1>
+    </header>
+
+    <div class="container">
+
+        <!-- 导航菜单 -->
+        <div class="navbar">
+            <a href="index.html">常见问题</a>
+            <a href="near index.html">售后视频</a>
+        </div>
+
+        <!-- 搜索框及返回按钮 -->
+        <div class="search-box">
+            <div class="return-button">
+                <a href="javascript:history.back()">返回</a>
+            </div>
+            <input type="text" id="search" placeholder="输入关键词...">
+            <button onclick="searchFunction()">搜索</button>
+        </div>
+        <!-- 索引 -->
+        <div class="index">
+            <img src="image/p1.png" alt="索引图">
+            <h2> </h2>
+ <h3>Q: 打印不清晰</h3>
+                <h3>A：</h3>
+                <p>距离不正确<br>
+                &emsp;&emsp;检查喷头与所打印表面的距离，一般为2-5mm，太近太远均会降低打印质量。<br>
+                霍尔板受损<br>
+                &emsp;&emsp;在某些情况下，霍尔板受损也会导致打印质量差，出现拉长变形等情况。考虑更换霍尔板或返修。</p>
+                <h3>Q: 打印无反应</h3>
+                <h3>A：</h3>
+                <p>按键损坏<br>
+                &emsp;&emsp;现象：按下打印按键没有听到“哒”一声反馈<br>
+                &emsp;&emsp;解决：更换打印按键<br>
+                系统设置感应模式<br>
+                &emsp;&emsp;现象：打印设置界面为光电模式<br>
+                &emsp;&emsp;解决：更改为手持模式</p>
+
+                <h3>Q: 打印不出墨</h3>
+                <h3>A：</h3>
+                <p>同步轮没接触到打印表面<br>
+                &emsp;&emsp;现象：打印过程提示灯一直是蓝色<br>
+                &emsp;&emsp;解决：引导客户使用方法<br>
+                墨量用尽<br>
+                &emsp;&emsp;现象：观察耗材信息，墨点计数接近108W墨点（部分机型114万）<br>
+                &emsp;&emsp;解决：购买墨盒<br>
+                打印物体颜色影响<br>
+                &emsp;&emsp;现象：打印物体颜色过深或与墨水颜色相近<br>
+                &emsp;&emsp;解决：更换其它颜色的打印物体，或更换墨水颜色<br>
+                白色黄色墨盒喷头堵头<br>
+                &emsp;&emsp;现象：有脏污或残墨附着喷头表面（白色/黄色快干墨盒易堵头）<br>
+                &emsp;&emsp;解决：查看【01-销售部文件夹\01产品售后文件夹\HH6105(B30)售后问题\HH6105应用说明】寻求解决办法<br>
+                纽扣电池短路主板<br>
+                &emsp;&emsp;现象：清洁喷头后拖动印色正常，装入机器却无法打印出来<br>
+                &emsp;&emsp;解决：重新焊接纽扣电池<br>
+                墨盒软排线损坏<br>
+                &emsp;&emsp;现象：软排线出现折皱变形或破损<br>
+                &emsp;&emsp;解决：无法修复，重新购买墨盒<br>
+                喷孔完全烧毁<br>
+                &emsp;&emsp;现象：无法从表面判断，可通过排除喷头堵头来确定<br>
+                &emsp;&emsp;解决：无法修复，重新购买墨盒</p>
+
+                <h3>Q: 打印断线（空缺）</h3>
+                <h3>A：</h3>
+                <p>喷头堵头<br>
+                &emsp;&emsp;现象：有脏污或残墨附着喷头表面（白色/黄色快干墨盒易堵头）<br>
+                &emsp;&emsp;解决：查看【\\192.168.2.186\公共区\01-销售部文件夹\01产品售后文件夹\HH6105(B30)售后问题\HH6105应用说明】解决<br>
+                墨量低<br>
+                &emsp;&emsp;现象：观察耗材信息，墨点计数接近108W墨点（现在是114万）<br>
+                &emsp;&emsp;解决：购买墨盒<br>
+                墨盒触点脏污<br>
+                &emsp;&emsp;现象：墨盒触点脏污<br>
+                &emsp;&emsp;解决：清洁墨盒触点<br>
+                墨盒触点基盘部分损坏<br>
+                &emsp;&emsp;现象：墨盒触点基盘部分损坏<br>
+                &emsp;&emsp;解决：无法修复，重新购买墨盒<br>
+                喷头分层进墨<br>
+                &emsp;&emsp;现象：喷头芯片处分层进墨<br>
+                &emsp;&emsp;解决：无法修复，重新购买墨盒<br>
+                墨盒软排线部分损坏<br>
+                &emsp;&emsp;现象：软排线出现折皱变形或破损<br>
+                &emsp;&emsp;解决：无法修复，重新购买墨盒<br>
+                材质问题<br>
+                &emsp;&emsp;现象：不易附着的非吸水性材质, 或表面不平整的材质打印不明显。<br>
+                &emsp;&emsp;解决：酒精清洁物体表面，或更换材质，看打印效果<br>
+                喷孔烧毁<br>
+                &emsp;&emsp;现象：无法从表面判断，可通过排除喷头堵头来确定<br>
+                &emsp;&emsp;解决：无法修复，重新购买墨盒<br>
+                52PIN针变形<br>
+                &emsp;&emsp;现象：拍52PIN针图片，看针脚是否变形<br>
+                &emsp;&emsp;解决：维修霍尔板<br>
+                52PIN针脏污<br>
+                &emsp;&emsp;现象：拍52PIN针图片，看针脚洁净程度<br>
+                &emsp;&emsp;解决：清洁52PIN针<br>
+                进空气<br>
+                &emsp;&emsp;现象：墨盒盖好护夹，在耳边摇晃墨盒会听到墨盒晃动的声音<br>
+                &emsp;&emsp;解决：抽空气</p>
+
+                <h3>Q: 打印露白</h3>
+                <h3>A：</h3>
+                <p>墨盒进空气<br>
+                &emsp;&emsp;现象：墨盒盖好护夹，在耳边摇晃墨盒会听到墨盒晃动的声音<br>
+                &emsp;&emsp;解决：抽空气</p>
+
+                <h3>Q: 打印首字母模糊</h3>
+                <h3>A：</h3>
+                <p>脏污<br>
+                &emsp;&emsp;清洁喷头，如清洁/更换设备后打印质量无改善考虑墨盒本身问题<br>
+                墨盒本身问题<br>
+                &emsp;&emsp;进行售后，更换墨盒</p>
+
+                <h3>Q: 分组打印异常</h3>
+                <h3>A：</h3>
+                <p>软件BUG<br>
+                &emsp;&emsp;现象：所选的作业无法全部打印，或打印顺序错乱等<br>
+                &emsp;&emsp;解决：升级固件</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

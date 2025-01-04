@@ -1,0 +1,686 @@
+/* 全局样式 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('image/island.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+/* 容器样式 */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.center-container {
+    position: relative; /* 相对定位，便于灵活调整内容 */
+    width: 1160px; /* 容器宽度 */
+    height: 500px; /* 容器高度 */
+    background: 
+        url('image/product_6105.png') no-repeat center center, /* 顶层背景图 */
+        url('image/55.png') no-repeat center center; /* 底层背景图 */
+    background-size: 13%,60% ; /* 顶层等比例显示，底层覆盖容器 */
+    background-color: rgba(255, 255, 255, 0.8); /* 可选：添加半透明背景色 */
+    border-radius: 10px; /* 圆角边框 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06); /* 可选：添加阴影 */
+}
+
+.center-container2 {
+    position: relative; /* 相对定位，便于灵活调整内容 */
+    width: 1160px; /* 容器宽度 */
+    height: 500px; /* 容器高度 */
+    background: 
+        url('image/6205.png') no-repeat center center, /* 顶层背景图 */
+        url('image/55.png') no-repeat center center; /* 底层背景图 */
+    background-size: 13%,60% ; /* 顶层等比例显示，底层覆盖容器 */
+    background-color: rgba(255, 255, 255, 0.8); /* 可选：添加半透明背景色 */
+    border-radius: 10px; /* 圆角边框 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06); /* 可选：添加阴影 */
+}
+.center-container3 {
+    position: relative; /* 相对定位，便于灵活调整内容 */
+    width: 1160px; /* 容器宽度 */
+    height: 500px; /* 容器高度 */
+    background: 
+        url('image/B30.png') no-repeat center center, /* 顶层背景图 */
+        url('image/55.png') no-repeat center center; /* 底层背景图 */
+    background-size: 13%,60% ; /* 顶层等比例显示，底层覆盖容器 */
+    background-color: rgba(255, 255, 255, 0.8); /* 可选：添加半透明背景色 */
+    border-radius: 10px; /* 圆角边框 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06); /* 可选：添加阴影 */
+}
+
+.center-container4 {
+    position: relative; /* 相对定位，便于灵活调整内容 */
+    width: 1160px; /* 容器宽度 */
+    height: 500px; /* 容器高度 */
+    background: 
+        url('image/6210.png') no-repeat center center, /* 顶层背景图 */
+        url('image/55.png') no-repeat center center; /* 底层背景图 */
+    background-size: 13%,60% ; /* 顶层等比例显示，底层覆盖容器 */
+    background-color: rgba(255, 255, 255, 0.8); /* 可选：添加半透明背景色 */
+    border-radius: 10px; /* 圆角边框 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06); /* 可选：添加阴影 */
+}
+.center-container5 {
+    position: relative; /* 相对定位，便于灵活调整内容 */
+    width: 1160px; /* 容器宽度 */
+    height: 500px; /* 容器高度 */
+    background: 
+        url('image/B40.png') no-repeat center center, /* 顶层背景图 */
+        url('image/55.png') no-repeat center center; /* 底层背景图 */
+    background-size: 13%,60% ; /* 顶层等比例显示，底层覆盖容器 */
+    background-color: rgba(255, 255, 255, 0.8); /* 可选：添加半透明背景色 */
+    border-radius: 10px; /* 圆角边框 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06); /* 可选：添加阴影 */
+}
+.center-container6 {
+    position: relative; /* 相对定位，便于灵活调整内容 */
+    width: 1160px; /* 容器宽度 */
+    height: 500px; /* 容器高度 */
+    background: 
+        url('image/B80.png') no-repeat center center, /* 顶层背景图 */
+        url('image/55.png') no-repeat center center; /* 底层背景图 */
+    background-size: 13%,60% ; /* 顶层等比例显示，底层覆盖容器 */
+    background-color: rgba(255, 255, 255, 0.8); /* 可选：添加半透明背景色 */
+    border-radius: 10px; /* 圆角边框 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06); /* 可选：添加阴影 */
+}
+
+.center-container7 {
+    position: relative; /* 相对定位，便于灵活调整内容 */
+    width: 1160px; /* 容器宽度 */
+    height: 500px; /* 容器高度 */
+    background: 
+        url('image/B10.png') no-repeat center center, /* 顶层背景图 */
+        url('image/9z.png') no-repeat center center; /* 底层背景图 */
+    background-size: 13%,60% ; /* 顶层等比例显示，底层覆盖容器 */
+    background-color: rgba(255, 255, 255, 0.8); /* 可选：添加半透明背景色 */
+    border-radius: 10px; /* 圆角边框 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06); /* 可选：添加阴影 */
+}
+.center-container8 {
+    position: relative; /* 相对定位，便于灵活调整内容 */
+    width: 1160px; /* 容器宽度 */
+    height: 500px; /* 容器高度 */
+    background: 
+        url('image/E60.png') no-repeat center center, /* 顶层背景图 */
+        url('image/9z.png') no-repeat center center; /* 底层背景图 */
+    background-size: 13%,60% ; /* 顶层等比例显示，底层覆盖容器 */
+    background-color: rgba(255, 255, 255, 0.8); /* 可选：添加半透明背景色 */
+    border-radius: 10px; /* 圆角边框 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06); /* 可选：添加阴影 */
+}
+.center-container9 {
+    position: relative; /* 相对定位，便于灵活调整内容 */
+    width: 1160px; /* 容器宽度 */
+    height: 500px; /* 容器高度 */
+    background: 
+        url('image/C20.png') no-repeat center center, /* 顶层背景图 */
+        url('image/55.png') no-repeat center center; /* 底层背景图 */
+    background-size: 13%,60% ; /* 顶层等比例显示，底层覆盖容器 */
+    background-color: rgba(255, 255, 255, 0.8); /* 可选：添加半透明背景色 */
+    border-radius: 10px; /* 圆角边框 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06); /* 可选：添加阴影 */
+}
+.btn1 {
+    position: absolute; /* 使用绝对定位 */
+    top: 17%;  /* 距离父容器顶部50% */
+    left: 18%; /* 距离父容器左侧50% */
+    transform: translate(-50%, -50%); /* 精确居中 */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgba(0,49,83);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* 添加背景颜色过渡效果 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.btn2 {
+    position: absolute; /* 使用绝对定位 */
+    top: 34%;  /* 距离父容器顶部50% */
+    left: 18%; /* 距离父容器左侧50% */
+    transform: translate(-50%, -50%); /* 精确居中 */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color:rgba(123, 104, 238) ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+    transition: background-color 0.3s ease; /* 添加背景颜色过渡效果 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn3 {
+    position: absolute; /* 使用绝对定位 */
+    top: 50%;  /* 距离父容器顶部50% */
+    left: 18%; /* 距离父容器左侧50% */
+    transform: translate(-50%, -50%); /* 精确居中 */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color:rgba(96,123,139);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn4 {
+    position: absolute; /* 使用绝对定位 */
+    top: 66%;  /* 距离父容器顶部50% */
+    left: 18%; /* 距离父容器左侧50% */
+    transform: translate(-50%, -50%); /* 精确居中 */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color:rgba(128,0,32) ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn5 {
+    position: absolute; /* 使用绝对定位 */
+    top: 83%;  /* 距离父容器顶部50% */
+    left: 18%; /* 距离父容器左侧50% */
+    transform: translate(-50%, -50%); /* 精确居中 */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color:rgba(85,107,47);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn6 {
+    position: absolute; /* 使用绝对定位 */
+    top: 17%;  /* 距离父容器顶部50% */
+    left: 82%; /* 距离父容器左侧50% */
+    transform: translate(-50%, -50%); /* 精确居中 */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color:rgba(139,69,19) ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn7 {
+    position: absolute; /* 使用绝对定位 */
+    top: 50%;  /* 距离父容器顶部50% */
+    left: 82%; /* 距离父容器左侧50% */
+    transform: translate(-50%, -50%); /* 精确居中 */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color:rgba(0,102,102) ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn8 {
+    position: absolute; /* 使用绝对定位 */
+    top: 66%;  /* 距离父容器顶部50% */
+    left: 82%; /* 距离父容器左侧50% */
+    transform: translate(-50%, -50%); /* 精确居中 */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color:rgba(204,153,0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn9 {
+    position: absolute; /* 使用绝对定位 */
+    top: 33.5%;  /* 距离父容器顶部50% */
+    left: 82%; /* 距离父容器左侧50% */
+    transform: translate(-50%, -50%); /* 精确居中 */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color:rgba(94,114,122) ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn10 {
+    position: absolute; /* 使用绝对定位 */
+    top: 83%;  /* 距离父容器顶部50% */
+    left: 82%; /* 距离父容器左侧50% */
+    transform: translate(-50%, -50%); /* 精确居中 */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgba(152,186,160);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.btn1:hover {
+    background-color: #357ABD; /* 鼠标悬停时按钮颜色变化 */
+}
+ 
+.btn2:hover {
+    background-color: #357ABD;
+}   
+
+.btn3:hover {
+    background-color: #357ABD; 
+}
+ 
+.btn4:hover {
+    background-color: #357ABD;
+}    
+    
+.btn5:hover {
+    background-color: #357ABD; 
+}
+ 
+.btn6:hover {
+    background-color: #357ABD; 
+}   
+
+.btn7:hover {
+    background-color: #357ABD;
+}
+ 
+.btn8:hover {
+    background-color: #357ABD; 
+}    
+.btn9:hover {
+    background-color: #357ABD;
+}
+ 
+.btn10:hover {
+    background-color: #357ABD; 
+}   
+      
+    
+.text-box1 {
+    display: none;
+    position: absolute;
+    top: -20%; /* 在按钮上方显示 */
+    left: -110%;
+    transform: translateX(-50%);
+    background-color: rgba(238,238,238);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    z-index: 99!important;
+    font-size: 14px; /* 文本框内的文本样式 */
+    color: black;
+    border: 1px solid black; /* 临时增加边框方便检查 */ text-align: left
+}
+
+.text-box2 {
+    display: none;
+    position: absolute;
+    top: -20%; /* 在按钮上方显示 */
+    left: -90%;
+    transform: translateX(-50%);
+    background-color: rgba(238,238,238);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    z-index: 99!important;
+    font-size: 14px; /* 文本框内的文本样式 */
+    color: black;
+    border: 1px solid black; /* 临时增加边框方便检查 */ 
+    text-align: left
+}
+.text-box3 {
+    display: none;
+    position: absolute;
+    top: -20%; /* 在按钮上方显示 */
+    left: -110%;
+    transform: translateX(-50%);
+    background-color: rgba(238,238,238);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    z-index: 99!important;
+    font-size: 14px; /* 文本框内的文本样式 */
+    color: black;
+    border: 1px solid black; /* 临时增加边框方便检查 */
+    text-align: left
+}
+.text-box4 {
+    display: none;
+    position: absolute;
+    top: -20%; /* 在按钮上方显示 */
+    left: -110%;
+    transform: translateX(-50%);
+    background-color: rgba(238,238,238);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    z-index: 99!important;
+    font-size: 14px; /* 文本框内的文本样式 */
+    color: black;
+    border: 1px solid black; /* 临时增加边框方便检查 */
+    text-align: left
+}
+.text-box5 {
+    display: none;
+    position: absolute;
+    top: -20%; /* 在按钮上方显示 */
+    left: -110%;
+    transform: translateX(-50%);
+    background-color: rgba(238,238,238);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    z-index: 99!important;
+    font-size: 14px; /* 文本框内的文本样式 */
+    color: black;
+    border: 1px solid black; /* 临时增加边框方便检查 */
+    text-align: left
+}
+.text-box6 {
+    display: none;
+    position: absolute;
+    top: -20%; /* 在按钮上方显示 */
+    left: 210%;
+    transform: translateX(-50%);
+    background-color: rgba(238,238,238);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    z-index: 99!important;
+    font-size: 14px; /* 文本框内的文本样式 */
+    color: black;
+    border: 1px solid black; /* 临时增加边框方便检查 */
+    text-align: left
+}
+.text-box7 {
+    display: none;
+    position: absolute;
+    top: -20%; /* 在按钮上方显示 */
+    left: 210%;
+    transform: translateX(-50%);
+    background-color: rgba(238,238,238);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    z-index: 99!important;
+    font-size: 14px; /* 文本框内的文本样式 */
+    color: black;
+    border: 1px solid black; /* 临时增加边框方便检查 */
+    text-align: left
+    
+}
+.text-box8 {
+    display: none;
+    position: absolute;
+    top: -20%; /* 在按钮上方显示 */
+    left: 210%;
+    transform: translateX(-50%);
+    background-color: rgba(238,238,238);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    z-index: 99!important;
+    font-size: 14px; /* 文本框内的文本样式 */
+    color: black;
+    border: 1px solid black; /* 临时增加边框方便检查 */
+    text-align: left
+}
+.text-box9 {
+    display: none;
+    position: absolute;
+    top: -20%; /* 在按钮上方显示 */
+    left: 210%;
+    transform: translateX(-50%);
+    background-color: rgba(238,238,238);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    z-index: 99!important;
+    font-size: 14px; /* 文本框内的文本样式 */
+    color: black;
+    border: 1px solid black; /* 临时增加边框方便检查 */
+    text-align: left
+}
+.text-box10 {
+    display: none;
+    position: absolute;
+    top: -20%; /* 在按钮上方显示 */
+    left: 210%;
+    transform: translateX(-50%);
+    background-color: rgba(238,238,238);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    z-index: 99!important;
+    font-size: 14px; /* 文本框内的文本样式 */
+    color: black;
+    border: 1px solid black; /* 临时增加边框方便检查 */
+     text-align: left
+}
+/* 鼠标悬停时显示文本框 */
+.btn1:hover  .text-box1 {
+    display: block!important;
+}
+
+.btn2:hover  .text-box2 {
+    display: block!important;
+}
+.btn3:hover  .text-box3 {
+    display: block!important;
+}
+
+.btn4:hover  .text-box4 {
+    display: block!important;
+}
+.btn5:hover  .text-box5 {
+    display: block!important;
+}
+
+.btn6:hover  .text-box6 {
+    display: block!important;
+}
+.btn7:hover  .text-box7 {
+    display: block!important;
+}
+
+.btn8:hover  .text-box8 {
+    display: block!important;
+}
+.btn9:hover  .text-box9 {
+    display: block!important;
+}
+
+.btn10:hover  .text-box10 {
+    display: block!important;
+}
+
+
+
+
+/* 头部样式 */
+header {
+    background-color: #4A90E2;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* 导航栏样式 */
+.navbar {
+    background-color: #4A90E2 ;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.navbar a {
+    color: #f4f4f4;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #2C6DAC;
+}
+
+/* 搜索框样式 */
+.search-box {
+    margin: 20px 0;
+    text-align: center;
+}
+.search-box .return-button {
+            position: absolute;
+            transform: translateX(0px); /* 向右平移 100px */
+}
+
+.search-box .return-button a {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #4A90E2;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+}
+
+.search-box .return-button a:hover {
+            background-color: #357ABD;
+}
+.search-box input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4A90E2;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #357ABD;
+}
+
+/* 索引与内容样式 */
+.index, .content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.index h2 {
+    color: #4A90E2;
+    border-bottom: 2px solid #4A90E2;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* 产品展示部分 */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* 替换 column-gap，支持更多布局 */
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.product {
+    width: 150px;
+    height: 220px;
+    margin: 13px;
+    background-color: #0066cc;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.product img {
+    max-width: 68%;
+    max-height: 68%;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 102, 204, 0.8);
+}
+
+.product button {
+    background-color: #f8f8f8;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    color: black;
+    padding: 0px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    font-weight: normal;
+    width: 150px;  /* 设置按钮宽度为固定值 */
+    height: 40px;  /* 设置按钮高度为固定值 */
+    margin-top: 22px;
+    font-size: 16px;
+}
+
+.product button:hover {
+    background-color: #e0e0e0;
+}
+
+/* 响应式调整 */
+@media (min-width: 1200px) {
+    .index img {
+        width: 1160px;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .products {
+        justify-content: center;
+    }
+
+    .product {
+        width: 10%;
+        max-width: 200px;
+    }
+}

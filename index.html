@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品展示页面</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <header>
+        <h1>售后支持</h1>
+    </header>
+
+    <div class="container">
+        <!-- 导航菜单 -->
+        <div class="navbar">
+            <a href="index.html">常见问题</a>
+            <a href="near_index.html">售后视频</a>
+        </div>
+
+        <!-- 搜索框 -->
+        <div class="search-box">
+            <input type="text" id="search" placeholder="输入关键词...">
+            <button onclick="searchFunction()">搜索</button>
+        </div>
+
+        <!-- 索引 -->
+        <div class="index">
+            <img src="image/p1.png" alt="索引图">
+            <h2>产品型号</h2>
+            
+            <!-- 产品展示 -->
+            <div class="products">
+                <div class="product">
+                    <img src="image/product_6105.png" alt="6105">
+                    <a href="6105k.html">
+                        <button>6105</button>
+                    </a>
+                </div>
+
+                <div class="product">
+                    <img src="image/6205.png" alt="6205">
+                     <a href="6205k.html">
+                    <button>6205</button>
+                    </a>    
+                </div>
+
+                <div class="product">
+                    <img src="image/B30.png" alt="B30">
+                    <a href="B30k.html">
+                    <button> B30</button></a>
+                </div>
+
+                <div class="product">
+                    <img src="image/6210.png" alt="6210">
+                    <a href="6210k.html">
+                    <button>6210</button></a> 
+                </div>
+
+                <div class="product">
+                    <img src="image/B40.png" alt="B40">
+                    <a href="B40k.html">
+                    <button> B40</button></a>
+                </div>
+
+                <div class="product">
+                    <img src="image/B80.png" alt="B80">
+                    <a href="B80k.html">
+                    <button> B80</button></a>
+                </div> 
+
+                <div class="product">
+                    <img src="image/B10.png" alt="B10">
+                    <a href="B10k.html">
+                    <button> B10</button></a>
+                </div>
+
+                <div class="product">
+                    <img src="image/E60.png" alt="E60">
+                    <a href="B60k.html">
+                    <button> B60</button></a>
+                </div>
+
+                <div class="product">
+                    <img src="image/C20.png" alt="C20">
+                    <a href="D20k.html">
+                    <button>B20/C20/D20</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 搜索功能
+        function searchFunction() {
+            const input = document.getElementById('search');
+            const filter = input.value.toUpperCase();
+            const elements = document.querySelectorAll('h2, h3, p');
+
+            elements.forEach(element => {
+                const originalHTML = element.innerHTML;
+                const regex = new RegExp(`(${filter.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')})`, 'gi');
+                if (filter && regex.test(element.textContent)) {
+                    element.innerHTML = originalHTML.replace(regex, `<span class="highlight">$1</span>`);
+                } else {
+                    element.innerHTML = originalHTML;
+                }
+            });
+        }
+    </script>
+</body>
+</html>
